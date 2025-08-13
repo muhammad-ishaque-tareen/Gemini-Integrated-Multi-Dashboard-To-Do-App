@@ -1,0 +1,64 @@
+/* src/pages/TermsAndConditions.css */
+
+.terms-container {
+  min-height: 100vh;
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Consistent with Home & About */
+  text-align: center;
+  color: #ffffff;
+}
+
+.terms-container h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #00ffb3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.terms-container p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.terms-container ul {
+  text-align: left;
+  max-width: 800px;
+  padding-left: 20px;
+  color: #f0f0f0;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.terms-container ul li {
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(to right, #00ffb3, #00c29e);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 12px rgba(0, 255, 179, 0.2);
+}
+
+.back-btn:hover {
+  background: linear-gradient(to right, #00c29e, #00ffb3);
+  transform: translateY(-2px);
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 0px 6px 15px rgba(0, 255, 179, 0.4);
+}
